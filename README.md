@@ -1,2 +1,2 @@
 # andreasite
-Personal website, now with devblog. Woohoo!
+Personal website, in progress
