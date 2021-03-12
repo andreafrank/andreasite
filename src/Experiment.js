@@ -1,22 +1,33 @@
 import React, { useState, useEffect } from "react";
 
-const Experiment = ({ messages }) => {
- // Default to the first message passed
-    const [messageIndex, setMessageIndex] = React.useState(0);
+const Experiment = ({ messages, first }) => {
+  const [messageIndex, setMessageIndex] = useState(0);
+  const [lastChar, setLastChar] = useState('');
 
-    useEffect(() => {
-   // Move on to the next message every `n` milliseconds
-   let timeout;
-   if (messageIndex < messages.length - 1) {
-     timeout = setTimeout(() => setMessageIndex(messageIndex + 1), 75);
-   }
+  useEffect(() => {
+    let timeout;
+      first.map((letter, index) => {
+        setLastChar(letter[index])
+        console.log(letter, index)
 
-   return () => {
-     clearTimeout(timeout);
-   };
- }, [messages, messageIndex]);
+        if (messageIndex < messages.length - 1) {
+          timeout = setTimeout(() => {
+            setLastChar(first[index]);
+            setMessageIndex(messageIndex + 1)
+            messages.push(lastChar);
+          }, 75)
+        }
+    })
 
- return <div>{messages[messageIndex]}</div>;
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [messages, messageIndex]);
+
+  return (
+    <div>
+    {messages[messageIndex]}
+    </div>)
 };
 
 export default Experiment;
