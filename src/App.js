@@ -1,5 +1,6 @@
 import React from 'react';
 import Experiment from './Experiment';
+// import Mapping from './Mapping';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="glow" style={{ minHeight: '100vh'}}>
-      <span style={{ letterSpacing: 12}}><Experiment messages={funChars} first={first} /></span>
+      <span style={{ letterSpacing: 12}}><Experiment first={first} messages={funChars}/></span>
     </div>
   );
 }

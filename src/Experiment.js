@@ -2,32 +2,41 @@ import React, { useState, useEffect } from "react";
 
 const Experiment = ({ messages, first }) => {
   const [messageIndex, setMessageIndex] = useState(0);
-  const [lastChar, setLastChar] = useState('');
+  const arrayContainer = [];
+
+  first.map((letter, i) => {
+    arrayContainer.push([]);
+    arrayContainer[i].push(messages.concat(first[i]));
+      return(<div>{arrayContainer[i]}</div>)
+  })
 
   useEffect(() => {
     let timeout;
-      first.map((letter, index) => {
-        setLastChar(letter[index])
-        console.log(letter, index)
 
-        if (messageIndex < messages.length - 1) {
-          timeout = setTimeout(() => {
-            setLastChar(first[index]);
-            setMessageIndex(messageIndex + 1)
-            messages.push(lastChar);
-          }, 75)
-        }
-    })
+    if (messageIndex < arrayContainer.length - 1) {
+      timeout = setTimeout(() => {
+        setMessageIndex(messageIndex + 1)
+      }, 75)
+    }
 
     return () => {
       clearTimeout(timeout);
     };
-  }, [messages, messageIndex]);
+  }, [messageIndex, messages]);
+
+  console.log(arrayContainer)
+
+  const fullList = arrayContainer.map((letterArr, j) => {
+    return (
+        <div>
+          {arrayContainer[messageIndex]}
+        </div>
+      )
+  })
 
   return (
-    <div>
-    {messages[messageIndex]}
-    </div>)
+    <div>{fullList}</div>
+  )
 };
 
 export default Experiment;

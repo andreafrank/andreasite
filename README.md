@@ -2,4 +2,5 @@
 Personal website, in progress
 
 todo:
-randomize funChars
+randomize characters
+useReducer for lastChar
