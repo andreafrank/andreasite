@@ -1,6 +1,5 @@
 import React from 'react';
 import Experiment from './Experiment';
-// import Mapping from './Mapping';
 import './App.css';
 
 function App() {
