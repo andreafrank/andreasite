@@ -1,9 +1,9 @@
 import React from 'react';
-import Experiment from './Experiment';
+import DisplayName from './DisplayName';
 import './App.css';
 
 function App() {
-    const first = 'andrez'.split('');
+    const first = 'andrea'.split('');
     // const last = 'frank'.split('');
     const funChars = [
       '⏀', '⎷', '⌮', '⋙', '⊠', '⎳', '⍼',
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="glow" style={{ minHeight: '100vh'}}>
-      <span style={{ letterSpacing: 12}}><Experiment first={first} messages={funChars}/></span>
+      <span style={{ letterSpacing: 12}}><DisplayName first={first} messages={funChars}/></span>
     </div>
   );
 }
