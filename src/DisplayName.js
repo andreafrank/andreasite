@@ -12,11 +12,17 @@ const DisplayName = ({ messages, first }) => {
   });
 
   const fullList = arrayContainer.map((letterArr, j) => {
+    // return (
+    //   <div key={j}>
+    //     {letterArr[secondMessageIndex]}
+    //   </div>
+    // )
+
     return letterArr.map((char, k) => {
-      console.log(letterArr)
+      // console.log(arrayContainer[secondMessageIndex])
       return (
         <div key={j}>
-          {char[messageIndex]}
+          // {char[messageIndex]}
         </div>
       )
     })
@@ -35,14 +41,14 @@ const DisplayName = ({ messages, first }) => {
     if (secondMessageIndex < arrayContainer.length) {
       timer2 = setTimeout(() => {
         setSecondMessageIndex(secondMessageIndex + 1)
-      }, 1000)
+      }, 75)
     }
 
     return () => {
       clearTimeout(timer);
       clearTimeout(timer2);
     };
-  }, [messageIndex, messages]);
+  }, [messageIndex, messages, secondMessageIndex, arrayContainer.length]);
 
   return (
     <div>{fullList}</div>
