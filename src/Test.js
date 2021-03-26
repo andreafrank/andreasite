@@ -23,7 +23,7 @@ const Test = ({ characters, name }) => {
   if (arrayIndex < name.length + 1) {
     timerId = setTimeout(() => {
       setArrayIndex((i) => i + 1);
-    }, 1000);
+    }, 250);
   } else {
     cleanupTimerRef();
   }
@@ -35,8 +35,10 @@ const Test = ({ characters, name }) => {
 }, [arrayIndex, name]);
 
 const fullList =
-  JSON.stringify(name.join('')).substring(0, arrayIndex) +
-  (charIndex ? characters[charIndex % characters.length] : "");
+  JSON.stringify(name.join('')).substring(1, arrayIndex) +
+  (charIndex ? characters[charIndex] : "");
+
+  console.log(JSON.stringify(name.join('')).substring(1, arrayIndex));
 
 return <div>{fullList}</div>;
 };
