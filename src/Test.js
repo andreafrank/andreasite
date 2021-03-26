@@ -1,51 +1,44 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
-const DisplayName = ({ characters, first }) => {
-  const [charIndex, setCharIndex] = useState(0);
+const Test = ({ characters, name }) => {
+  const charTimerRef = useRef(null);
+  const [charIndex, setCharIndex] = useState(null);
   const [arrayIndex, setArrayIndex] = useState(0);
 
-  let arrayContainer = [];
-
-  first.map((letter, i) => {
-    arrayContainer.push([]);
-    arrayContainer[i].push(characters.concat(first[i]));
-    return arrayContainer;
-  });
-
-// I can't figure out how to attach arrayIndex here. I am
-// also not using j currently, but kept it for now in case I need
-// a key for the return statements.
-  const fullList = arrayContainer.map((letterArr, j) => {
-    return letterArr.map(char => {
-        return (char[charIndex])
-      })
-  });
-
   useEffect(() => {
-    let timer;
-    // let secondTimer;
-
-    if (charIndex < characters.length) {
-      timer = setTimeout(() => {
-        setCharIndex(charIndex + 1)
-      }, 75)
-    }
-
-    // if (arrayIndex < first.length - 1) {
-    //   secondTimer = setTimeout(() => {
-    //     setArrayIndex(arrayIndex + 1)
-    //   }, 75)
-    // }
-
-    return () => {
-      clearTimeout(timer);
-      // clearTimeout(secondTimer);
+    let timerId;
+    const cleanupTimerRef = () => {
+      setCharIndex(null);
+      clearInterval(charTimerRef.current);
+      charTimerRef.current = null;
     };
-  }, [charIndex, characters, arrayIndex, first]);
 
-  return (
-    <div>{fullList}</div>
-  )
+  if (!charTimerRef.current) {
+    setCharIndex(0);
+    charTimerRef.current = setInterval(() => {
+      setCharIndex((i) => i + 1);
+    }, 75);
+  }
+
+  if (arrayIndex < name.length + 1) {
+    timerId = setTimeout(() => {
+      setArrayIndex((i) => i + 1);
+    }, 1000);
+  } else {
+    cleanupTimerRef();
+  }
+
+  return () => {
+    clearTimeout(timerId);
+    cleanupTimerRef();
+  };
+}, [arrayIndex, name]);
+
+const fullList =
+  JSON.stringify(name.join('')).substring(0, arrayIndex) +
+  (charIndex ? characters[charIndex % characters.length] : "");
+
+return <div>{fullList}</div>;
 };
 
-export default DisplayName;
+export default Test;

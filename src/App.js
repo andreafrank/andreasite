@@ -1,19 +1,19 @@
 import React from 'react';
-// import DisplayName from './DisplayName';
+import DisplayName from './DisplayName';
 import Test from './Test'
 import './App.css';
 
 function App() {
-    const first = 'andrea'.split('');
+    const name = 'andrea frank'.split('');
     const funChars = [
-      '⏀', '⎷', '⌮', '⋙', '⊠', ];
-      // '⎳', '⍼']'⍣', '╈', '╳', '☀', '★', '☍',  'ↂ','▅'];
+      '⏀', '⎷', '⌮', '⋙', '⊠',];
+      // '⎳', '⍼', '⍣', '╈', '╳', '☀', '★', '☍', 'ↂ', '▅',];
      // '↹', '♥', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'
 
 
   return (
     <div className="glow" style={{ minHeight: '100vh'}}>
-      <span style={{ letterSpacing: 12}} style={{display: 'inline-block'}}><Test first={first} characters={funChars}/></span>
+      <span style={{ letterSpacing: 12}} style={{display: 'inline-block'}}><Test name={name} characters={funChars}/></span>
     </div>
   );
 }

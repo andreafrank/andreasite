@@ -1,54 +1,47 @@
 import React, { useState, useEffect } from "react";
 
-const DisplayName = ({ messages, first }) => {
-  const [messageIndex, setMessageIndex] = useState(0);
-  const [secondMessageIndex, setSecondMessageIndex] = useState(0);
+const DisplayName = ({ characters, name }) => {
+  const [charIndex, setCharIndex] = useState(0);
+  const [arrayIndex, setArrayIndex] = useState(0);
+
   let arrayContainer = [];
 
-  first.map((letter, i) => {
+  name.map((letter, i) => {
     arrayContainer.push([]);
-    arrayContainer[i].push(messages.concat(first[i]));
+    arrayContainer[i].push(characters.concat(name[i]));
     return arrayContainer;
   });
 
+// I can't figure out how to attach arrayIndex here. I am
+// also not using j currently, but kept it for now in case I need
+// a key for the return statements.
   const fullList = arrayContainer.map((letterArr, j) => {
-    // return (
-    //   <div key={j}>
-    //     {letterArr[secondMessageIndex]}
-    //   </div>
-    // )
-
-    return letterArr.map((char, k) => {
-      // console.log(arrayContainer[secondMessageIndex])
-      return (
-        <div key={j}>
-          // {char[messageIndex]}
-        </div>
-      )
-    })
+    return letterArr.map(char => {
+        return (char[charIndex])
+      })
   });
 
   useEffect(() => {
     let timer;
-    let timer2;
+    // let secondTimer;
 
-    if (messageIndex < messages.length) {
+    if (charIndex < characters.length) {
       timer = setTimeout(() => {
-        setMessageIndex(messageIndex + 1)
-      }, 75)
+        setCharIndex(charIndex + 1)
+      }, 100)
     }
 
-    if (secondMessageIndex < arrayContainer.length) {
-      timer2 = setTimeout(() => {
-        setSecondMessageIndex(secondMessageIndex + 1)
-      }, 75)
-    }
+    // if (arrayIndex < first.length - 1) {
+    //   secondTimer = setTimeout(() => {
+    //     setArrayIndex(arrayIndex + 1)
+    //   }, 75)
+    // }
 
     return () => {
       clearTimeout(timer);
-      clearTimeout(timer2);
+      // clearTimeout(secondTimer);
     };
-  }, [messageIndex, messages, secondMessageIndex, arrayContainer.length]);
+  }, [charIndex, characters, arrayIndex, name]);
 
   return (
     <div>{fullList}</div>
