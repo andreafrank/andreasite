@@ -1,11 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #070f17;
+}
+
+.light_glow{
+  font-family: 'Unica One', cursive;
+  font-size: 5rem;
+  color: white;
+  padding-left: 80px;
+  padding-top: 80px;
+  text-shadow:
+              1px 1px 0px gold,
+              -3px -0 25px red,
+              3px 0px 3px white,
+              0px 0px 15px white,
+              15px 10px 10px black,
+              0 0 40px magenta,
+              0 0 40px purple,
+              0 0 60px magenta,
+              0 0 80px orangered,
+              0 0 80px magenta,
+              0 0 100px orangered,
+              0 0 150px orangered;
+}
+
 .glow{
       font-family: 'Unica One', cursive;
       font-size: 5rem;
-      background: black;
+      line-height: 1em;
       color: white;
-      padding: 80px;
+      padding-top: 40px;
+      padding-left: 80px;
       text-shadow:
                   1px 1px 0px gold,
                   -3px -0 25px red,
@@ -19,4 +47,20 @@
                   0 0 80px magenta,
                   0 0 100px orangered,
                   0 0 150px orangered;
-       }
+}
+
+.secondary_text{
+  font-family: 'Unica One', cursive;
+  font-size: 2rem;
+  color: white;
+  padding-left: 16rem;
+  padding-top: 3rem;
+}
+
+.tertiary_text{
+  font-family: 'Unica One', cursive;
+  font-size: 2rem;
+  color: white;
+  padding-left: 22rem;
+  padding-top: 1rem;
+}
