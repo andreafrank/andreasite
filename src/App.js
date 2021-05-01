@@ -6,19 +6,23 @@ import Fireflies from './Fireflies';
 import './App.css';
 
 function App() {
-    const name = 'andrea frank'.split('');
-    const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
+  const name = 'andrea frank'.split('');
+  const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
      //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
      // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
 
+// TODO: set timer for secondary and tertiary text
 
   return (
     <div>
       <div className="glow">
-        <span style={{ letterSpacing: 12}}>I'm <Test name={name} characters={funChars}/></span>
+        I'm
+        <span style={{ letterSpacing: 12}}><Test name={name} characters={funChars}/></span>
       </div>
       <div className="secondary_text">jr. front-end developer &</div>
+      <div className="rectangle" />
       <div className="tertiary_text">creative technologist</div>
+      <div className="sidenav" />
     </div>
   );
 }

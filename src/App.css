@@ -61,6 +61,38 @@ html, body {
   font-family: 'Unica One', cursive;
   font-size: 2rem;
   color: white;
-  padding-left: 22rem;
+  padding-left: 23rem;
   padding-top: 1rem;
 }
+
+.rectangle {
+  height: 8px;
+  width: 20rem;
+  /* position: absolute; */
+  margin-left: 257px;
+  margin-top: -10px;
+  background-color: #FF2D92;
+  z-index:1;
+}
+
+.rectangle:after {
+  content: "";
+  z-index:0;
+  /* position: absolute; */
+  left: 0px;
+  width: 0;
+  height: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 5rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #070f17;
+  border-left: 1px solid #FF2D92;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }
