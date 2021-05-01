@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Technologies = () => {
+const Technologies = ({technologies}) => {
+  const techList = technologies.map((tech) => {
+    return tech;
+  });
+
  return (
-   <div>
-    technologies
+   <div style={{ color: 'white'}}>
+    {techList}
    </div>
  )
 }
