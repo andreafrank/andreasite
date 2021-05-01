@@ -1,8 +1,9 @@
 import React from 'react';
 import * as THREE from 'three';
 import { Canvas } from 'react-three-fiber';
-import Test from './Test'
-import Fireflies from './Fireflies';
+import Test from './components/Test'
+import Technologies from './components/Technologies';
+import Fireflies from './components/Fireflies';
 import './App.css';
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
   const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
      //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
      // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
+
+  const list = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber']
 
 // TODO: set timer for secondary and tertiary text
 
@@ -22,6 +25,7 @@ function App() {
       <div className="secondary_text">jr. front-end developer &</div>
       <div className="rectangle" />
       <div className="tertiary_text">creative technologist</div>
+      <div><Technologies /></div>
       <div className="sidenav" />
     </div>
   );
