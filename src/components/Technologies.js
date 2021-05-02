@@ -2,14 +2,18 @@ import React from 'react';
 import './Technologies.css';
 
 const Technologies = ({technologies}) => {
-  const techList = technologies.map(tech => {
-    return tech;
+  const techList = technologies.map((tech, index) => {
+    return (
+      <li key={index} className="tag">
+       {tech}
+      </li>
+    );
   });
 
  return (
-      <button className="bg" onMouseOver={e => e.preventDefault()} >
-        {techList}
-       </button>
+   <ul className="tags">
+    {techList}
+   </ul>
  )
 }
 

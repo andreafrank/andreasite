@@ -49,7 +49,7 @@ html, body {
                   0 0 150px orangered;
 }
 
-.secondary_text{
+.secondary_text {
   font-family: 'Unica One', cursive;
   font-size: 2rem;
   color: white;
@@ -57,17 +57,18 @@ html, body {
   padding-top: 3rem;
 }
 
-.tertiary_text{
+.tertiary_text {
   font-family: 'Unica One', cursive;
   font-size: 2rem;
   color: white;
   padding-left: 23rem;
   padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .rectangle {
   height: 8px;
-  width: 20rem;
+  width: 17.2rem;
   /* position: absolute; */
   margin-left: 257px;
   margin-top: -10px;
@@ -83,16 +84,3 @@ html, body {
   width: 0;
   height: 0;
 }
-
-.sidenav {
-  height: 100%;
-  width: 5rem;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #070f17;
-  border-left: 1px solid #FF2D92;
-  overflow-x: hidden;
-  padding-top: 20px;
-  }

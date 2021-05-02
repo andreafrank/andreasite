@@ -17,6 +17,7 @@ function App() {
   const technologies = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'figma']
 
 // TODO: set timer for secondary and tertiary text
+// projects
 
   return (
     <div>
@@ -28,7 +29,6 @@ function App() {
       <div className="rectangle" />
       <div className="tertiary_text">creative technologist</div>
       <div><Technologies technologies={technologies} /></div>
-      <div><Projects /></div>
       <div><Navbar /></div>
     </div>
   );

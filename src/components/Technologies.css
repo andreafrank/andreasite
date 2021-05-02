@@ -1,10 +1,59 @@
-.bg {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+.tags {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  /* padding: 0; */
 }
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  background: #734469;
+  border-radius: 25px;
+  color:#eee;
+  /* display: inline-block; */
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  font-family: 'Montserrat';
+  /* text-decoration: none; */
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  /* box-shadow: inset 0 1px rgba(0, 0, 0, 0.25); */
+  /* content: ''; */
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+/* .tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
+
+/* .tag:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.tag:hover::after {
+   border-left-color: crimson;
+} */
