@@ -1,15 +1,19 @@
 import React from 'react';
 
 const Projects = ({projects}) => {
-  // const techList = technologies.map((tech) => {
-  //   return tech;
-  // });
+   const projectList = projects.map((project, index) => {
+     return (
+       <li key={index}>
+        {project}
+       </li>
+     );
+   });
 
- return (
-   <div style={{ color: 'white'}}>
-    projects
-   </div>
- )
+  return (
+    <ul>
+     {projectList}
+    </ul>
+  )
 }
 
 export default Projects;

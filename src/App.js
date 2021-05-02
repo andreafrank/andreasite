@@ -14,10 +14,13 @@ function App() {
      //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
      // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
 
-  const technologies = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'figma']
+  const technologyList = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'figma'];
+  const projectList = ['Weather', 'Nasa Images']
 
-// TODO: set timer for secondary and tertiary text
+// TODO:
 // projects
+// two columns (see css)
+// rectangle over text
 
   return (
     <div>
@@ -25,10 +28,11 @@ function App() {
         I'm
         <span style={{ letterSpacing: 12 }}><Test name={name} characters={funChars}/></span>
       </div>
-      <div className="secondary_text">front-end developer &</div>
-      <div className="rectangle" />
-      <div className="tertiary_text">creative technologist</div>
-      <div><Technologies technologies={technologies} /></div>
+      <div className="secondary_text delay">front-end developer &</div>
+      <div className="rectangle delay" />
+      <div className="tertiary_text delay">creative technologist</div>
+      <div><Technologies technologies={technologyList} /></div>
+      <div><Projects projects={projectList}/></div>
       <div><Navbar /></div>
     </div>
   );

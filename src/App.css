@@ -69,7 +69,7 @@ html, body {
 .rectangle {
   height: 8px;
   width: 17.2rem;
-  /* position: absolute; */
+  position: absolute;
   margin-left: 257px;
   margin-top: -10px;
   background-color: #FF2D92;
@@ -79,8 +79,29 @@ html, body {
 .rectangle:after {
   content: "";
   z-index:0;
-  /* position: absolute; */
+  position: absolute;
   left: 0px;
   width: 0;
   height: 0;
+}
+
+.delay {
+  position: relative;
+  animation: 5s cssAnimation;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 2;
+  }
+}
+
+.two_columns {
+  column-count: 2
 }

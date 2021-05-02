@@ -38,7 +38,9 @@ const fullList =
   JSON.stringify(name.join('')).substring(1, arrayIndex) +
   (charIndex ? characters[charIndex] : '');
 
-return <div>{fullList}</div>;
+return (
+  <div>{fullList}</div>
+  )
 };
 
 export default Test;
