@@ -5,6 +5,7 @@ import Test from './components/Test'
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Fireflies from './components/Fireflies';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
      //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
      // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
 
-  const technologies = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber']
+  const technologies = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'figma']
 
 // TODO: set timer for secondary and tertiary text
 
@@ -21,14 +22,14 @@ function App() {
     <div>
       <div className="glow">
         I'm
-        <span style={{ letterSpacing: 12}}><Test name={name} characters={funChars}/></span>
+        <span style={{ letterSpacing: 12 }}><Test name={name} characters={funChars}/></span>
       </div>
-      <div className="secondary_text">jr. front-end developer &</div>
+      <div className="secondary_text">front-end developer &</div>
       <div className="rectangle" />
       <div className="tertiary_text">creative technologist</div>
       <div><Technologies technologies={technologies} /></div>
       <div><Projects /></div>
-      <div className="sidenav" />
+      <div><Navbar /></div>
     </div>
   );
 }
