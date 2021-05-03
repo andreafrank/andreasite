@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { Canvas } from 'react-three-fiber';
 import Test from './components/Test'
 import Technologies from './components/Technologies';
-import Projects from './components/Projects';
+import ProjectList from './components/ProjectList';
 import Fireflies from './components/Fireflies';
 import Navbar from './components/Navbar';
 import './App.css';
@@ -20,7 +20,7 @@ function App() {
 // TODO:
 // projects
 // two columns (see css)
-// rectangle over text
+// rectangle over text - do this via js, not css
 
   return (
     <div>
