@@ -1,20 +1,20 @@
 import React from 'react';
-import './ProjectList\.css';
+import ProjectItem from './ProjectItem';
+import './ProjectList.css';
 
 
-const ProjectList = ({projects}) => {
+const ProjectList = ({ projects }) => {
+  console.log(projects);
    const allProjects = projects.map((project, index) => {
      return (
-       <li key={index}>
-        {project}
-       </li>
+       <ProjectItem key={index} project={project} />
      );
    });
 
   return (
-    <ul>
+    <div>
      {allProjects}
-    </ul>
+    </div>
   )
 }
 
