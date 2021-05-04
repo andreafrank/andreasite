@@ -12,7 +12,7 @@ const ProjectList = ({ projects }) => {
    });
 
   return (
-    <div>
+    <div style={{color: 'white'}}>
      {allProjects}
     </div>
   )
