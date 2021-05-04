@@ -26,15 +26,15 @@ function App() {
 
   return (
     <div>
-      <div className="glow">
+      <div className="glow font">
         I'm
         <span style={{ letterSpacing: 12 }}><Test name={name} characters={funChars}/></span>
       </div>
-      <div className="secondary_text delay">front-end developer &</div>
+      <div className="secondary_text delay font">front-end developer &</div>
       <div className="rectangle delay" />
-      <div className="tertiary_text delay">creative technologist</div>
+      <div className="tertiary_text delay font">creative technologist</div>
       <div><Technologies technologies={technologyList} /></div>
-      <div><ProjectList projects={projectList}/></div>
+      <div className="secondary_font"><ProjectList projects={projectList}/></div>
       <div><Navbar /></div>
     </div>
   );

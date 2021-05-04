@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 html, body {
   width: 100%;
@@ -6,29 +7,15 @@ html, body {
   background: #070f17;
 }
 
-.light_glow{
+.font {
   font-family: 'Unica One', cursive;
-  font-size: 5rem;
-  color: white;
-  padding-left: 80px;
-  padding-top: 80px;
-  text-shadow:
-              1px 1px 0px gold,
-              -3px -0 25px red,
-              3px 0px 3px white,
-              0px 0px 15px white,
-              15px 10px 10px black,
-              0 0 40px magenta,
-              0 0 40px purple,
-              0 0 60px magenta,
-              0 0 80px orangered,
-              0 0 80px magenta,
-              0 0 100px orangered,
-              0 0 150px orangered;
 }
 
-.glow{
-      font-family: 'Unica One', cursive;
+.secondary_font {
+  font-family: 'Montserrat';
+}
+
+.glow {
       font-size: 5rem;
       line-height: 1em;
       color: white;
@@ -50,7 +37,6 @@ html, body {
 }
 
 .secondary_text {
-  font-family: 'Unica One', cursive;
   font-size: 2rem;
   color: white;
   padding-left: 16rem;
@@ -58,7 +44,6 @@ html, body {
 }
 
 .tertiary_text {
-  font-family: 'Unica One', cursive;
   font-size: 2rem;
   color: white;
   padding-left: 23rem;
