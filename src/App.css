@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 html, body {
@@ -11,86 +10,6 @@ html, body {
   background: #070f17;
 }
 
-.font {
-  font-family: 'Unica One', cursive;
-}
-
 .secondary_font {
   font-family: 'Montserrat';
-}
-
-.glow {
-      font-size: 5rem;
-      line-height: 1em;
-      color: white;
-      /* padding-top: 40px; */
-      /* padding-left: 80px; */
-      text-shadow:
-                  1px 1px 0px gold,
-                  -3px -0 25px red,
-                  3px 0px 3px white,
-                  0px 0px 15px white,
-                  15px 10px 10px black,
-                  0 0 40px magenta,
-                  0 0 40px purple,
-                  0 0 60px magenta,
-                  0 0 80px orangered,
-                  0 0 80px magenta,
-                  0 0 100px orangered,
-                  0 0 150px orangered;
-}
-
-.secondary_text {
-  font-size: 2rem;
-  color: white;
-  /* padding-left: 16rem;
-  padding-top: 3rem; */
-}
-
-.tertiary_text {
-  font-size: 2rem;
-  color: white;
-  /* padding-left: 23rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem; */
-}
-
-.rectangle {
-  height: 8px;
-  width: 17.2rem;
-  /* position: absolute; */
-  /* margin-left: 1rem; */
-  /* margin-top: -10px; */
-  background-color: #FF2D92;
-  /* z-index:1; */
-}
-
-.rectangle:after {
-  content: "";
-  /* z-index:0; */
-  /* position: absolute; */
-  left: 0px;
-  width: 0;
-  height: 0;
-}
-
-.delay {
-  position: relative;
-  animation: 5s cssAnimation;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-
-@keyframes cssAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 2;
-  }
-}
-
-.two_columns {
-  column-count: 2
 }
