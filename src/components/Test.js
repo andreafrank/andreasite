@@ -17,7 +17,7 @@ const Test = ({ characters, name }) => {
     setCharIndex(0);
     charTimerRef.current = setInterval(() => {
       setCharIndex((i) => i + 1);
-    }, 75);
+    }, 50);
   }
 
   if (arrayIndex < name.length + 1) {

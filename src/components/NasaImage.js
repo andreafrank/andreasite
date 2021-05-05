@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Personal = () => {
+
+const NasaImage = () => {
   return (
     <div style={{ color: 'white' }}>
-      PERSONAL
+      NASA FILE
     </div>
   )
 }
 
-export default Personal;
+export default NasaImage;

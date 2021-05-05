@@ -3,7 +3,7 @@ import React from 'react';
 const Community = () => {
   return (
     <div style={{ color: 'white' }}>
-      NASA FILE
+      COMMUNITY
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Personal = () => {
+const Contact = () => {
   return (
     <div style={{ color: 'white' }}>
-      PERSONAL
+      CONTACT
     </div>
   )
 }
 
-export default Personal;
+export default Contact;
