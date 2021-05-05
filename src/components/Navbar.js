@@ -53,15 +53,9 @@ const Navbar = () => {
   const [contact, setContact] = useState(false);
   const [projects, setProjects] = useState(false);
 
-  return(
+  return (
     <Router>
-      <div className="text-pink-500" style={{ display: "flex" }}>
-        <div
-          style={{
-            padding: "10px",
-            width: "40%",
-          }}
-        >
+      <div className="text-pink-500">
           <ul className="sidenav">
             <li>
 
@@ -124,7 +118,6 @@ const Navbar = () => {
             ))}
           </Switch>
 
-        </div>
       </div>
     </Router>
   );
