@@ -69,14 +69,9 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <ProjectList projects={projectList} />
-          </Route>
-        </Switch>
+        <div>
+          <Route path='/about' component={About} />
+        </div>
       </BrowserRouter>
     </div>
 
