@@ -10,3 +10,11 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
+
+.icon_style {
+  padding-left: 2.5rem;
+  font-size: 60px;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+}
