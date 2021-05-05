@@ -55,54 +55,56 @@ const Navbar = () => {
 
   return (
     <Router>
-      <div className="text-pink-500">
+      <div>
           <ul className="sidenav">
             <li>
 
             <li>
-              <Link to="/">
-                <div
-                  className="icon_style"
-                  onMouseEnter = {() => setHome(true)}
-                  onMouseLeave = {() => setHome(false)}>
-                    <WiDirectionLeft />
-                </div>
-                {home && (<div className="">home</div>)}
-              </Link>
+              <div className="pad">
+                <Link to="/">
+                  <div
+                    className="icon_style text-pink-500"
+                    onMouseEnter = {() => setHome(true)}
+                    onMouseLeave = {() => setHome(false)}>
+                      <WiDirectionLeft />
+                  </div>
+                  {home && (<div className="hover_text">home</div>)}
+                </Link>
+              </div>
             </li>
 
               <Link to="/about">
                 <div
-                  className="icon_style"
+                  className="icon_style text-pink-500 pad"
                   onMouseEnter = {() => setAbout(true)}
                   onMouseLeave = {() => setAbout(false)}>
                     <WiStars />
                 </div>
-                {about && (<div className="">about</div>)}
+                {about && (<div className="hover_text">about</div>)}
               </Link>
             </li>
 
             <li>
               <Link to="/contact">
                 <div
-                  className="icon_style"
+                  className="icon_style text-pink-500 pad"
                   onMouseEnter = {() => setContact(true)}
                   onMouseLeave = {() => setContact(false)}>
                     <WiMeteor />
                 </div>
-                {contact && (<div className="">contact</div>)}
+                {contact && (<div className="hover_text">contact</div>)}
               </Link>
             </li>
 
             <li>
               <Link to="/projects">
                 <div
-                  className="icon_style"
+                  className="icon_style text-pink-500"
                   onMouseEnter = {() => setProjects(true)}
                   onMouseLeave = {() => setProjects(false)}>
                     <WiDust />
                 </div>
-                {projects && (<div className="">projects</div>)}
+                {projects && (<div className="hover_text">projects</div>)}
               </Link>
             </li>
           </ul>

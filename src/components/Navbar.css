@@ -20,6 +20,16 @@
   margin: 4px;
 }
 
+.hover_text {
+  padding-left: 1.5rem;
+  color: pink;
+}
+
+.pad{
+  /* padding-top: 1rem; */
+  margin: auto;
+}
+
 .glow {
   text-shadow:
               1px 1px 0px gold,
