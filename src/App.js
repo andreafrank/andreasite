@@ -8,10 +8,6 @@ import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
-  const name = 'andrea frank'.split('');
-  const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
-     //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
-     // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
 
 // TODO:
 // NETLIFY
@@ -27,7 +23,6 @@ function App() {
 
   return (
     <div className="container">
-       <span><Home name={name} characters={funChars}/></span>
       <Navbar />
     </div>
   );
