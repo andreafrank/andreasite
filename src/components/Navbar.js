@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import About from './About.js';
 import Contact from './Contact.js';
+import Home from './Home.js';
 import ProjectList from './projects/ProjectList';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import { WiStars, WiMeteor, WiDust, WiDirectionLeft } from 'react-icons/wi';
@@ -18,12 +19,17 @@ import './Navbar.css';
 // ADD HOME
 
 const projectList = ['one']
+const name = 'andrea frank'.split('');
+const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
+   //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
+   // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
+
 
 const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <div></div>
+    main: () => <div><span><Home name={name} characters={funChars}/></span></div>
   },
 
   {
