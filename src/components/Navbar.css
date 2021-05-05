@@ -1,6 +1,6 @@
 .sidenav {
   height: 100%;
-  width: 5rem;
+  width: 6rem;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -12,9 +12,43 @@
 }
 
 .icon_style {
-  padding-left: 2.5rem;
+  padding-left: 1.25rem;
+  /* padding-bottom: 6rem; */
   font-size: 60px;
   text-align: center;
-  padding: 4px;
+  /* padding: 4px; */
   margin: 4px;
+}
+
+.glow {
+  text-shadow:
+              1px 1px 0px gold,
+              -3px -0 25px red,
+              3px 0px 3px white,
+              0px 0px 15px white,
+              15px 10px 10px black,
+              0 0 40px magenta,
+              0 0 40px purple,
+              0 0 60px magenta,
+              0 0 80px orangered,
+              0 0 80px magenta,
+              0 0 100px orangered,
+              0 0 150px orangered;
+}
+
+.delay {
+  position: relative;
+  animation: cssAnimation;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 2;
+  }
 }
