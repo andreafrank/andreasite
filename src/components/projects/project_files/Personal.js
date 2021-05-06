@@ -17,6 +17,7 @@ const Personal = () => {
         <br />
         My personal website, hosted on Netlify. This is really just the bones; I'm planning on smoother transitions, amongst other fun visual changes. Fully responsive design coming in the next iteration.
         <br />
+        <br />
         ReactJS
         <br />
         VanillaJS

@@ -4,7 +4,7 @@ const Bus = () => {
   return (
     <div className="secondary-font p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
       <h1 className="font-bold text-xl"> UX Case Study: Bus Tracker</h1>
-      <div>
+      <div>Make this story short:{' '}
       <a
         className="text-yellow-300 hover:text-yellow-300 text-lg"
         target="_blank"
