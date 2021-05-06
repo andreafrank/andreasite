@@ -4,7 +4,7 @@ import './Home.css';
 
 // TODO: Delay css isn't working
 
-const technologyList = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'figma'];
+const technologyList = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'Figma'];
 
 const Home = ({ characters, name }) => {
   const charTimerRef = useRef(null);

@@ -74,10 +74,10 @@ const ProjectItem = () => {
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/bus">
                     <div className="text-white 2xl font-bold mb-2">
-                      Bus thing
+                      UX Case Study: Bus Tracker
                     </div>
                     <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
-                      More bus thing
+                      Because waiting for the bus in the cold is terrible
                     </div>
                   </Link>
                 </div>
@@ -87,10 +87,10 @@ const ProjectItem = () => {
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/community">
                     <div className="text-white 2xl font-bold mb-2">
-                      describe this community
+                      UX Case Study: CommUNITY
                     </div>
                     <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
-                      Weather teaser
+                      Mutual-aid focused help in times of natural disaster
                     </div>
                   </Link>
               </div>
