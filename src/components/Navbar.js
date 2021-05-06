@@ -16,7 +16,7 @@ import './Navbar.css';
 //    cv
 //    blurb
 // projects
-// ADD HOME
+// Add state for current page: https://www.youtube.com/watch?v=BHC-ll9PFe0
 
 const projectList = ['one']
 const name = 'andrea frank'.split('');

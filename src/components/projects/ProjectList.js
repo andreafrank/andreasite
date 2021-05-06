@@ -10,9 +10,9 @@ const ProjectList = ({ projects }) => {
    });
 
   return (
-    <div style={{color: 'white'}}>
-     {allProjects}
-    </div>
+    <>
+      {allProjects}
+    </>
   )
 }
 
