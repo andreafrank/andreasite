@@ -30,7 +30,7 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <div><span><Home name={name} characters={funChars}/></span></div>
+    main: () => <div className="unica"><span><Home name={name} characters={funChars}/></span></div>
   },
 
   {

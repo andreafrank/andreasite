@@ -10,6 +10,7 @@ import './App.css';
 function App() {
 
 // TODO:
+// FIX THE FONTS
 // NETLIFY
 // bring fireflies in
 // responsive

@@ -1,9 +1,8 @@
 import React from 'react';
 
-
 const Weather = () => {
   return (
-    <div className="p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
+    <div className="secondary-font p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
       <h2 className="font-bold text-lg">React weather app</h2>
       <br />
       <div>
@@ -28,6 +27,16 @@ const Weather = () => {
         <br />
         TailwindCSS styling
       </div>
+      <img
+        src={"/weather1.png"}
+        alt="first image; example of weather conditions"
+        className="p-8 pr-32"
+      />
+      <img
+        src={"/weather2.png"}
+        alt="second image; example of weather conditions"
+        className="p-8 pr-32"
+      />
     </div>
   )
 }
