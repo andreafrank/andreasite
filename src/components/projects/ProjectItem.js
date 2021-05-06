@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import NasaImage from './project_files/NasaImage';
 import Weather from './project_files/Weather';
 import Bus from './project_files/Bus';
