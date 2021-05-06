@@ -5,6 +5,7 @@ import Weather from './project_files/Weather';
 import Bus from './project_files/Bus';
 import Community from './project_files/Community';
 import Personal from './project_files/Personal';
+import Instapost from './project_files/Instapost';
 import './ProjectItem.css';
 
 // TODO: Refactor. This is too repetitive. Split into programming and UX sections.
@@ -17,27 +18,40 @@ const ProjectItem = () => {
         <nav>
           <ul>
 
-          <li className="ontainer my-4 px-8">
+          <li className="container my-4 px-8">
               <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                 <Link to="/weather">
                   <div className="text-white 2xl font-bold mb-2">
-                    Weather from PROJECT ITEM
+                    Weather App
                   </div>
-                  <div className="text-gray-800 leading-relaxed">
-                    Weather teaser
+                  <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                    Uses async/await, axios, Promises
                   </div>
                 </Link>
               </div>
+          </li>
+
+          <li className="container my-4 px-8">
+            <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+              <Link to="/personal">
+                <div className="text-white 2xl font-bold mb-2">
+                  Personal
+                </div>
+                <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                  More about this website you're viewing. Meta!
+                </div>
+              </Link>
+            </div>
           </li>
 
             <li className="container my-4 px-8">
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/nasa">
                     <div className="text-white 2xl font-bold mb-2">
-                      Nasa Image Search from PROJECT ITEM
+                      Nasa Image Search
                     </div>
-                    <div className="text-gray-800 leading-relaxed">
-                      Here is some teaser text about NASA image search.
+                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                      Spooky space pictures
                     </div>
                   </Link>
                 </div>
@@ -45,12 +59,12 @@ const ProjectItem = () => {
 
             <li className="container my-4 px-8">
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
-                  <Link to="/personal">
+                  <Link to="/instapost">
                     <div className="text-white 2xl font-bold mb-2">
-                      Personal
+                      Instapost
                     </div>
-                    <div className="text-gray-800 leading-relaxed">
-                      More about this website you're viewing. Meta!
+                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                      Rails, React, PostGres
                     </div>
                   </Link>
                 </div>
@@ -60,10 +74,10 @@ const ProjectItem = () => {
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/bus">
                     <div className="text-white 2xl font-bold mb-2">
-                      Bus thing
+                      UX Case Study: Bus Tracker
                     </div>
-                    <div className="text-gray-800 leading-relaxed">
-                      More bus thing
+                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                      Because waiting for the bus in the cold is terrible
                     </div>
                   </Link>
                 </div>
@@ -73,10 +87,10 @@ const ProjectItem = () => {
                 <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/community">
                     <div className="text-white 2xl font-bold mb-2">
-                      describe this community
+                      UX Case Study: CommUNITY
                     </div>
-                    <div className="text-gray-800 leading-relaxed">
-                      Weather teaser
+                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                      Mutual-aid focused help in times of natural disaster
                     </div>
                   </Link>
               </div>
@@ -94,6 +108,9 @@ const ProjectItem = () => {
           </Route>
           <Route path="/personal">
             <Personal />
+          </Route>
+          <Route path="/instapost">
+            <Instapost />
           </Route>
           <Route path="/community">
             <Community />

@@ -3,12 +3,14 @@ import React from 'react';
 const Weather = () => {
   return (
     <div className="secondary-font p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
-      <h2 className="font-bold text-lg">React weather app</h2>
+      <h2 className="font-bold text-xl">React weather app</h2>
       <br />
       <div>
         <a
           className="hover:text-yellow-300"
-          href="https://github.com/andreafrank/weather">
+          href="https://github.com/andreafrank/weather"
+          target="_blank"
+        >
             Github source code
         </a>
         <br />
@@ -29,13 +31,13 @@ const Weather = () => {
       </div>
       <img
         src={"/weather1.png"}
-        alt="first image; example of weather conditions"
+        alt="first; example of weather conditions"
         className="p-8 pr-32"
       />
       <img
         src={"/weather2.png"}
-        alt="second image; example of weather conditions"
-        className="p-8 pr-32"
+        alt="second; example of weather conditions"
+        className="p-8 pr-24"
       />
     </div>
   )
