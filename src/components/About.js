@@ -18,6 +18,8 @@ const About = () => {
       <a
         href="https://www.linkedin.com/in/andrea-frank/"
         className="text-yellow-500"
+        target="_blank"
+        rel="noopener noreferrer"
       >
           LinkedIn
       </a>
