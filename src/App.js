@@ -1,7 +1,6 @@
 import React from 'react';
 // import * as THREE from 'three';
 // import { Canvas } from 'react-three-fiber';
-import Home from './components/Home'
 
 // import Fireflies from './components/Fireflies';
 import Navbar from './components/Navbar';
