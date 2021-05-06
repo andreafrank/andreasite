@@ -8,7 +8,7 @@ import Personal from './project_files/Personal';
 import Instapost from './project_files/Instapost';
 import './ProjectItem.css';
 
-// TODO: Refactor. This is too repetitive. Split into programming and UX sections.
+// TODO: Refactor. This is too repetitive. Split into programming and UX sections more clearly.
 // responsive small screen
 
 const ProjectItem = () => {
@@ -19,12 +19,12 @@ const ProjectItem = () => {
           <ul>
 
           <li className="container my-4 px-8">
-              <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                 <Link to="/weather">
                   <div className="text-white 2xl font-bold mb-2">
                     Weather App
                   </div>
-                  <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                  <div className="text-gray-800 leading-relaxed text-pink-100">
                     Uses async/await, axios, Promises
                   </div>
                 </Link>
@@ -32,12 +32,12 @@ const ProjectItem = () => {
           </li>
 
           <li className="container my-4 px-8">
-            <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+            <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
               <Link to="/personal">
                 <div className="text-white 2xl font-bold mb-2">
                   Personal
                 </div>
-                <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                <div className="text-gray-800 leading-relaxed text-pink-100">
                   More about this website you're viewing. Meta!
                 </div>
               </Link>
@@ -45,12 +45,12 @@ const ProjectItem = () => {
           </li>
 
             <li className="container my-4 px-8">
-                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+                <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                   <Link to="/nasa">
                     <div className="text-white 2xl font-bold mb-2">
                       Nasa Image Search
                     </div>
-                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                    <div className="text-gray-800 leading-relaxed text-pink-100">
                       Spooky space pictures
                     </div>
                   </Link>
@@ -58,12 +58,12 @@ const ProjectItem = () => {
             </li>
 
             <li className="container my-4 px-8">
-                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+                <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                   <Link to="/instapost">
                     <div className="text-white 2xl font-bold mb-2">
                       Instapost
                     </div>
-                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                    <div className="text-gray-800 leading-relaxed text-pink-100">
                       Rails, React, PostGres
                     </div>
                   </Link>
@@ -71,12 +71,12 @@ const ProjectItem = () => {
             </li>
 
             <li className="container my-4 px-8">
-                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+                <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                   <Link to="/bus">
                     <div className="text-white 2xl font-bold mb-2">
                       UX Case Study: Bus Tracker
                     </div>
-                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                    <div className="text-gray-800 leading-relaxed text-pink-100">
                       Because waiting for the bus in the cold is terrible
                     </div>
                   </Link>
@@ -84,12 +84,12 @@ const ProjectItem = () => {
             </li>
 
             <li className="container my-4 px-8">
-                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
+                <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                   <Link to="/community">
                     <div className="text-white 2xl font-bold mb-2">
                       UX Case Study: CommUNITY
                     </div>
-                    <div className="text-gray-800 leading-relaxed" style={{ color: "#ffe0cc" }}>
+                    <div className="text-gray-800 leading-relaxed text-pink-100">
                       Mutual-aid focused help in times of natural disaster
                     </div>
                   </Link>
