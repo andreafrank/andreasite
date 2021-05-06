@@ -8,7 +8,9 @@ const Community = () => {
       <div>
         <a
           className="hover:text-yellow-300"
-          href="https://github.com/andreafrank/weather">
+          href="https://github.com/andreafrank/weather"
+          target="_blank"
+        >
             Github source code
         </a>
         <br />
