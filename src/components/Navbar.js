@@ -57,7 +57,7 @@ const Navbar = () => {
   return (
     <Router>
       <div>
-          <ul className="sidenav">
+          <ul className="sidenav z-20">
             <li>
 
             <li>

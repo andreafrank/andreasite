@@ -48,12 +48,12 @@ const Home = ({ characters, name }) => {
     <>
       <div className="mt-36">
         <div className="glow font text-center mb-12">
-          <div className="tracking-widest">{fullList}</div>
+          <div className="text-6xl sm:text-8xl sm:tracking-widest">{fullList}</div>
         </div>
       </div>
-        <div className="secondary_text delay font text-center ml-36 z-10">front-end developer &</div>
+        <div className="secondary_text delay font text-center sm:ml-36 z-10">front-end developer &</div>
         <div className="rectangle delay relative m-auto -mt-4 z-0" />
-        <div className="tertiary_text delay font mb-12 text-center ml-48">creative technologist</div>
+        <div className="tertiary_text delay font mb-12 text-center sm:ml-48">creative technologist</div>
         <div className="text-center px-12"><Technologies technologies={technologyList} /></div>
     </>
     )
