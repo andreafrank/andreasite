@@ -39,7 +39,7 @@ const Instapost = () => {
           <br />
           Write tests
           <br />
-          Heroku, Netlify, or some other host
+          Heroku or some other host
           <br />
           <br />
           No photos due to current association problem, but... working on it!

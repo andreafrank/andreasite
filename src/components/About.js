@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div style={{ color: 'white' }}>
-      here is a thing about about
+      The bio page goes here. Check back in a day or two. :)
     </div>
   )
 }
