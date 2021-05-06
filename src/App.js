@@ -20,6 +20,7 @@ function App() {
 // don't center name
 // maybe animate the secondary text with tailwind
 // Create email form that does not display my email address
+// create readme, add netlify too
 
   return (
     <div className="container">
