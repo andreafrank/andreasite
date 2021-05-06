@@ -11,7 +11,7 @@ const About = () => {
       A few years ago, I embarked on a trajectory that would allow me to combine two of my interests: tech and design. I attended Dev Bootcamp Chicago (DBC), a software engineering intensive, where I learned full-stack web development. Shortly after, an opportunity opened for me to work at the School of the Art Institute of Chicago to become part of a team dedicated to building sustainable community, academic, and corporate partnerships with the aim of making art and design innovations useful to both local communities and international businesses.
       <br />
       <br />
-      Though I recently completed an MPS in UX Design from Maryland Institute College of Art, my interest and intention lie in front-end developement. I use what I've learned in UX to inform my process, and if you need a developer who can easily interface with your design team, look no further.
+      Though I recently completed an MPS in UX Design from Maryland Institute College of Art, my interest and intention lie in front-end development. I use what I've learned in UX to inform my process, and if you need a developer who can easily interface with your design team, look no further.
       <br />
       <br />
       As you can likely tell, this is still a very drafty work in progress. Contact me on {' '}
