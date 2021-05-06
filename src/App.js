@@ -12,14 +12,13 @@ function App() {
 // TODO:
 // NETLIFY
 // bring fireflies in
-// make project files (3 code, 2 ux)
+// responsive
 // GET THE WIREFRAMES
-// parse out project files - this doesn't need to be in sidebar
-// write About
 // write contact (keep in sidenav?)
 // fix rectangle
 // don't center name
 // maybe animate the secondary text with tailwind
+// Create email form that does not display my email address
 
   return (
     <div className="container">

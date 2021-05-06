@@ -8,6 +8,7 @@ import Personal from './project_files/Personal';
 import './ProjectItem.css';
 
 // TODO: Refactor. This is too repetitive. Split into programming and UX sections.
+// responsive small screen
 
 const ProjectItem = () => {
   return (
@@ -18,9 +19,9 @@ const ProjectItem = () => {
 
           <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
             <div className="lg:w-1/4 w-full lg:pr-3">
-              <div className="bg-gray-200 rounded-xl p-6">
+              <div className="bg-red-400 rounded-xl p-6">
                 <Link to="/weather">
-                  <div className="text-indigo-700 2xl font-bold mb-2">
+                  <div className="text-white 2xl font-bold mb-2">
                     Weather from PROJECT ITEM
                   </div>
                   <div className="text-gray-800 leading-relaxed">
@@ -33,9 +34,9 @@ const ProjectItem = () => {
 
             <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
               <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-gray-200 rounded-xl p-6">
+                <div className="bg-red-400 rounded-xl p-6">
                   <Link to="/nasa">
-                    <div className="text-indigo-700 2xl font-bold mb-2">
+                    <div className="text-white 2xl font-bold mb-2">
                       Nasa Image Search from PROJECT ITEM
                     </div>
                     <div className="text-gray-800 leading-relaxed">
@@ -48,9 +49,9 @@ const ProjectItem = () => {
 
             <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
               <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-gray-200 rounded-xl p-6">
+                <div className="bg-red-400 rounded-xl p-6">
                   <Link to="/personal">
-                    <div className="text-indigo-700 2xl font-bold mb-2">
+                    <div className="text-white 2xl font-bold mb-2">
                       Personal
                     </div>
                     <div className="text-gray-800 leading-relaxed">
@@ -63,9 +64,9 @@ const ProjectItem = () => {
 
             <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
               <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-gray-200 rounded-xl p-6">
+                <div className="bg-red-400 rounded-xl p-6">
                   <Link to="/bus">
-                    <div className="text-indigo-700 2xl font-bold mb-2">
+                    <div className="text-white 2xl font-bold mb-2">
                       Bus thing
                     </div>
                     <div className="text-gray-800 leading-relaxed">
@@ -78,9 +79,9 @@ const ProjectItem = () => {
 
             <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
               <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-gray-200 rounded-xl p-6">
+                <div className="bg-red-400 rounded-xl p-6">
                   <Link to="/community">
-                    <div className="text-indigo-700 2xl font-bold mb-2">
+                    <div className="text-white 2xl font-bold mb-2">
                       describe this community
                     </div>
                     <div className="text-gray-800 leading-relaxed">
