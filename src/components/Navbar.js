@@ -17,6 +17,7 @@ import './Navbar.css';
 //    blurb
 // projects
 // Add state for current page: https://www.youtube.com/watch?v=BHC-ll9PFe0
+// Ease in display on all navbar elements
 
 const projectList = ['one']
 const name = 'andrea frank'.split('');
@@ -29,7 +30,7 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <div><span><Home name={name} characters={funChars}/></span></div>
+    main: () => <div className="unica"><span><Home name={name} characters={funChars}/></span></div>
   },
 
   {
