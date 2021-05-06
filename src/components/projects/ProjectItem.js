@@ -12,14 +12,13 @@ import './ProjectItem.css';
 
 const ProjectItem = () => {
   return (
-    <div>
+    <div className="flex flex-col-3" >
       <BrowserRouter>
         <nav>
           <ul>
 
-          <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
-            <div className="lg:w-1/4 w-full lg:pr-3">
-              <div className="bg-red-400 rounded-xl p-6">
+          <li className="ontainer my-4 px-8">
+              <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                 <Link to="/weather">
                   <div className="text-white 2xl font-bold mb-2">
                     Weather from PROJECT ITEM
@@ -29,12 +28,10 @@ const ProjectItem = () => {
                   </div>
                 </Link>
               </div>
-            </div>
           </li>
 
-            <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
-              <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-red-400 rounded-xl p-6">
+            <li className="container my-4 px-8">
+                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/nasa">
                     <div className="text-white 2xl font-bold mb-2">
                       Nasa Image Search from PROJECT ITEM
@@ -44,27 +41,23 @@ const ProjectItem = () => {
                     </div>
                   </Link>
                 </div>
-              </div>
             </li>
 
-            <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
-              <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-red-400 rounded-xl p-6">
+            <li className="container my-4 px-8">
+                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/personal">
                     <div className="text-white 2xl font-bold mb-2">
                       Personal
                     </div>
                     <div className="text-gray-800 leading-relaxed">
-                      Meta website info
+                      More about this website you're viewing. Meta!
                     </div>
                   </Link>
                 </div>
-              </div>
             </li>
 
-            <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
-              <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-red-400 rounded-xl p-6">
+            <li className="container my-4 px-8">
+                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/bus">
                     <div className="text-white 2xl font-bold mb-2">
                       Bus thing
@@ -74,12 +67,10 @@ const ProjectItem = () => {
                     </div>
                   </Link>
                 </div>
-              </div>
             </li>
 
-            <li className="container mx-auto flex flex-wrap items-start my-4 px-8">
-              <div className="lg:w-1/4 w-full lg:pr-3">
-                <div className="bg-red-400 rounded-xl p-6">
+            <li className="container my-4 px-8">
+                <div className="bg-red-400 hover:bg-red-300 rounded-xl p-6">
                   <Link to="/community">
                     <div className="text-white 2xl font-bold mb-2">
                       describe this community
@@ -88,7 +79,6 @@ const ProjectItem = () => {
                       Weather teaser
                     </div>
                   </Link>
-                </div>
               </div>
             </li>
 

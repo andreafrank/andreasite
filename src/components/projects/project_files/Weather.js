@@ -3,8 +3,31 @@ import React from 'react';
 
 const Weather = () => {
   return (
-    <div style={{ color: 'white' }}>
-      WEATHER FILE
+    <div className="p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
+      <h2 className="font-bold text-lg">React weather app</h2>
+      <br />
+      <div>
+        <a
+          className="hover:text-yellow-300"
+          href="https://github.com/andreafrank/weather">
+            Github source code
+        </a>
+        <br />
+        <br />
+        ReactJS app to geolocate the user, return city, and display the current weather. The app also displays an unsplash image that uses the current weather condition as a search term. The app will auto-update every 10 minutes.
+        <br />
+        <br />
+        Used promises, async/await, and axios to compare / contrast usage.
+        <br />
+        <br />
+        OpenWeather API
+        <br />
+        Google Maps Geocode API
+        <br />
+        Unsplash API
+        <br />
+        TailwindCSS styling
+      </div>
     </div>
   )
 }

@@ -17,6 +17,7 @@ import './Navbar.css';
 //    blurb
 // projects
 // Add state for current page: https://www.youtube.com/watch?v=BHC-ll9PFe0
+// Ease in display on all navbar elements
 
 const projectList = ['one']
 const name = 'andrea frank'.split('');
