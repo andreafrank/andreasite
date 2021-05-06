@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => {
    });
 
   return (
-    <div className="">
+    <div>
       {allProjects}
     </div>
   )

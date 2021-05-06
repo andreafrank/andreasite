@@ -9,12 +9,9 @@
 }
 
 .glow {
-      letter-spacing: 1rem;
       font-size: 5rem;
       line-height: 1em;
       color: white;
-      /* padding-top: 40px; */
-      /* padding-left: 80px; */
       text-shadow:
                   1px 1px 0px gold,
                   -3px -0 25px red,
@@ -33,32 +30,21 @@
 .secondary_text {
   font-size: 2rem;
   color: white;
-  /* padding-left: 16rem;
-  padding-top: 3rem; */
 }
 
 .tertiary_text {
   font-size: 2rem;
   color: white;
-  /* padding-left: 23rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem; */
 }
 
 .rectangle {
   height: 8px;
   width: 17.2rem;
-  /* position: absolute; */
-  /* margin-left: 1rem; */
-  /* margin-top: -10px; */
   background-color: #FF2D92;
-  /* z-index:1; */
 }
 
 .rectangle:after {
   content: "";
-  /* z-index:0; */
-  /* position: absolute; */
   left: 0px;
   width: 0;
   height: 0;

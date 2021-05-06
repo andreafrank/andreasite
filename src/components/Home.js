@@ -48,7 +48,7 @@ const Home = ({ characters, name }) => {
     <>
       <div className="mt-36">
         <div className="glow font text-center mb-12">
-          <div>{fullList}</div>
+          <div className="tracking-widest">{fullList}</div>
         </div>
       </div>
         <div className="secondary_text delay font text-center ml-36 z-10">front-end developer &</div>
