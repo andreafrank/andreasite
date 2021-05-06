@@ -9,7 +9,7 @@ const Community = () => {
         className="text-yellow-300 hover:text-yellow-300 text-lg"
         target="_blank"
         href="https://xd.adobe.com/view/f3bd11a2-2b1d-4049-86ed-ec116ab2a67e-a6ee/"
-        target="_blank"
+        rel="noopener noreferrer"
       >
           Adobe XD prototype
       </a>
@@ -235,7 +235,7 @@ const Community = () => {
         className="text-yellow-300 hover:text-yellow-300 text-lg p-8 px-72"
         target="_blank"
         href="https://xd.adobe.com/view/f3bd11a2-2b1d-4049-86ed-ec116ab2a67e-a6ee/"
-        target="_blank"
+        rel="noopener noreferrer"
       >
           Adobe XD prototype
       </a>

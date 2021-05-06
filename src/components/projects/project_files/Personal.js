@@ -10,6 +10,7 @@ const Personal = () => {
           className="hover:text-yellow-300"
           href="https://github.com/andreafrank/andreasite"
           target="_blank"
+          rel="noopener noreferrer"
         >
             Github source code
         </a>

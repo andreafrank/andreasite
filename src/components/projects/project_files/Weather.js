@@ -10,6 +10,7 @@ const Weather = () => {
           className="hover:text-yellow-300"
           href="https://github.com/andreafrank/weather"
           target="_blank"
+          rel="noopener noreferrer"
         >
             Github source code
         </a>

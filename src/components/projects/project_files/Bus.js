@@ -7,9 +7,9 @@ const Bus = () => {
       <div>Make this story short:{' '}
       <a
         className="text-yellow-300 hover:text-yellow-300 text-lg"
-        target="_blank"
         href="https://www.figma.com/proto/BkE5F5RpCvH3XyjMIJnlbF/CTA?node-id=1%3A3&scaling=min-zoom"
         target="_blank"
+        rel="noopener noreferrer"
       >
           Link to Figma proof of concept
       </a>
@@ -152,6 +152,7 @@ const Bus = () => {
       className="text-yellow-300 hover:text-yellow-300 text-lg px-64"
       href="https://www.figma.com/proto/BkE5F5RpCvH3XyjMIJnlbF/CTA?node-id=1%3A3&scaling=min-zoom"
       target="_blank"
+      rel="noopener noreferrer"
     >
         Link to Figma proof of concept
     </a>

@@ -11,6 +11,7 @@ const NasaImage = () => {
           className="hover:text-yellow-300"
           href="https://github.com/andreafrank/nasa-photos"
           target="_blank"
+          rel="noopener noreferrer"
         >
             Github source code
         </a>
@@ -25,7 +26,7 @@ const NasaImage = () => {
       </div>
       <img
         src={"/nasa1.png"}
-        alt="first image; example of weather conditions"
+        alt="example search for bobcat"
         className="p-8 pr-24"
       />
     </div>
