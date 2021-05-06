@@ -29,13 +29,13 @@ const Weather = () => {
       </div>
       <img
         src={"/weather1.png"}
-        alt="first image; example of weather conditions"
+        alt="first; example of weather conditions"
         className="p-8 pr-32"
       />
       <img
         src={"/weather2.png"}
-        alt="second image; example of weather conditions"
-        className="p-8 pr-32"
+        alt="second; example of weather conditions"
+        className="p-8 pr-24"
       />
     </div>
   )
