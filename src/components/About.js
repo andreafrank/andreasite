@@ -26,7 +26,7 @@ const About = () => {
         {' '} while I'm building out my contact page.
        <br />
        <br />
-       I'm values-driven, and care deeply about racial and gender equity and sustainability. Outside of development, I like to sew and pattern draft, garden, cook, and I'm really looking forward to traveling again.
+       I'm values-driven, and care deeply about racial and gender equity, data privacy, and sustainability. Outside of development, I like to sew and pattern draft, garden, cook, and I'm really looking forward to traveling again.
 
     </div>
   )
