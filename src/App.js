@@ -1,9 +1,5 @@
 import React from 'react';
-// import * as THREE from 'three';
-// import { Canvas } from 'react-three-fiber';
-
-// import Fireflies from './components/Fireflies';
-import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar2';
 import './App.css';
 
 function App() {
@@ -20,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <Navbar />
+      <Navbar2 />
     </div>
   );
 }
