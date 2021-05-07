@@ -57,14 +57,14 @@ const Navbar = () => {
   return (
     <Router>
       <div>
-          <ul className="sidenav z-20">
+          <ul className="w-full sm:w-24 h-20 sm:h-full top-0 bg-black border-b-2 sm:border-b-0 sm:border-l-2 sm:fixed border-pink-600 sm:right-0 z-20">
             <li>
 
             <li>
               <div className="pad">
                 <Link to="/">
                   <div
-                    className="icon_style text-pink-500"
+                    className="hidden sm:flex icon_style text-pink-500"
                     onMouseEnter = {() => setHome(true)}
                     onMouseLeave = {() => setHome(false)}>
                       <WiDirectionLeft />
@@ -76,7 +76,7 @@ const Navbar = () => {
 
               <Link to="/about">
                 <div
-                  className="icon_style text-pink-500 pad"
+                  className="hidden sm:flex icon_style text-pink-500 pad"
                   onMouseEnter = {() => setAbout(true)}
                   onMouseLeave = {() => setAbout(false)}>
                     <WiStars />
@@ -88,7 +88,7 @@ const Navbar = () => {
             <li>
               <Link to="/contact">
                 <div
-                  className="icon_style text-pink-500 pad"
+                  className="hidden sm:flex icon_style text-pink-500 pad"
                   onMouseEnter = {() => setContact(true)}
                   onMouseLeave = {() => setContact(false)}>
                     <WiMeteor />
@@ -100,7 +100,7 @@ const Navbar = () => {
             <li>
               <Link to="/projects">
                 <div
-                  className="icon_style text-pink-500"
+                  className="hidden sm:flex icon_style text-pink-500"
                   onMouseEnter = {() => setProjects(true)}
                   onMouseLeave = {() => setProjects(false)}>
                     <WiDust />
