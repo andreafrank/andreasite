@@ -22,10 +22,6 @@ import './Navbar.css';
 const projectList = ['one']
 const name = 'andrea frank'.split('');
 const funChars = ['⏀', '⍣', '↹', '⋙', '⊠', 'Ҵ'];
-   //  '⎳', '⎷', '⍼','╈', '╳', '☀', '★', '☍', 'ↂ', '▅',
-   // '♥', '⌮', 'Ҵ', 'ζ', '▞', '⎲', '⌬', '	⎸'];
-
-
 const routes = [
   {
     path: "/",
@@ -55,8 +51,7 @@ const Navbar = () => {
   const [projects, setProjects] = useState(false);
 
 
-// TODO: parse the ul out into multiple conceptual divs. This is too long.
-// where does that li terminate??
+// TODO: parse the ul styling out into multiple conceptual divs. This is too long.
 
   return (
     <Router>
