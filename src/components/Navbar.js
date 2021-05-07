@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <Router>
       <nav>
-          <ul className="w-full lg:w-24 h-20 lg:h-full top-0 bg-black border-b-2 lg:border-b-0 lg:border-l-2 lg:fixed border-pink-600 lg:right-0 z-20 flex items-center justify-between flex-wrap">
+          <ul className="w-full lg:w-24 h-26 lg:h-full top-0 bg-black border-b-2 lg:border-b-0 lg:border-l-2 lg:fixed border-pink-600 lg:right-0 z-20 flex items-center justify-between flex-wrap">
             <li>
               <div className="pad">
                 <Link to="/">
