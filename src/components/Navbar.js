@@ -64,7 +64,7 @@ const Navbar = () => {
               <div className="pad">
                 <Link to="/">
                   <div
-                    className="hidden sm:flex icon_style text-pink-500"
+                    className="icon_style text-pink-500"
                     onMouseEnter = {() => setHome(true)}
                     onMouseLeave = {() => setHome(false)}>
                       <WiDirectionLeft />
@@ -76,7 +76,7 @@ const Navbar = () => {
 
               <Link to="/about">
                 <div
-                  className="hidden sm:flex icon_style text-pink-500 pad"
+                  className="icon_style text-pink-500 pad"
                   onMouseEnter = {() => setAbout(true)}
                   onMouseLeave = {() => setAbout(false)}>
                     <WiStars />
