@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar2 from './components/Navbar2';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <Navbar2 />
+      <Navbar />
     </div>
   );
 }
