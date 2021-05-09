@@ -29,6 +29,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 ###### Contact
 - [ ] Contact page info - integrate into navbar with tabs; refine interaction
 - [ ] Create email form that does not display my email address
+- [ ] Click outside should hide
 - [ ] Make the bg not black
 
 ###### About/bio
