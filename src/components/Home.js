@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Technologies from './Technologies';
+import { WiStars, WiMeteor, WiDust, WiDirectionLeft } from 'react-icons/wi';
 import './Home.css';
 
 // TODO: Delay css isn't working
