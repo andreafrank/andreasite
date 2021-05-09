@@ -34,3 +34,5 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 
 ###### About/bio
 - [ ] Update info, add image
+- [ ] Add headline
+- [ ] Add resume
