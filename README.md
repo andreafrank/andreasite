@@ -1,6 +1,6 @@
 # Personal website
 
-Used ReactJS, vanillaJS, TailwindCSS and customCSS.
+Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 
 [andreafrank.dev](http://www.andreafrank.dev)
 
