@@ -33,9 +33,7 @@ const Footer = () => {
         </a>
         </div>
       <div className="hidden">
-        <a href="">
           <AiTwotoneMail />
-        </a>
       </div>
     </footer>
   )
