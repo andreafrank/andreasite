@@ -9,6 +9,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 ## currently working on (5/9/21):
 ###### General
 - [ ] Element alignments: for all views, check padding, margins. Some pixels sometimes slightly off.
+- [ ] Check responsive display on very large screens
 
 ###### Main/home
 - [ ] Add firefly field with Three.JS
@@ -21,6 +22,9 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 - [ ] Make the bg not black
 - [ ] Icons too far apart
 - [ ] Icons should not jump when hovered
+
+###### Projects
+- [ ] Display differently on smaller screens
 
 ###### Contact
 - [ ] Contact page info - integrate into navbar with tabs; refine interaction
