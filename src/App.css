@@ -13,3 +13,7 @@ html, body {
 .secondary_font {
   font-family: 'Montserrat';
 }
+
+.row {
+  display:table-row;
+}
