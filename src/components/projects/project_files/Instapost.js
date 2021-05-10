@@ -2,7 +2,7 @@ import React from 'react';
 
 const Instapost = () => {
   return (
-    <div className="secondary-font p-8 w-full lg:w-2/3 lg:pr-3" style={{ color: 'white' }}>
+    <div className="secondary-font p-8 lg:w-3/4 w-full lg:pr-3" style={{ color: 'white' }}>
       <h2 className="font-bold text-xl">Instapost</h2>
       <br />
       <div>

@@ -54,7 +54,7 @@ const Navbar = () => {
       <nav>
           <ul className="w-full lg:w-24 h-full lg:h-26 lg:h-full top-0 bg-black border-b-2 lg:border-b-0 lg:border-l-2 lg:fixed border-pink-600 lg:right-0 z-20 flex items-center justify-between flex-wrap">
             <li>
-              <div className="">
+              <div>
                 <Link to="/">
                   <div
                     className="icon_style text-pink-500 hover:text-pink-300"
@@ -66,6 +66,7 @@ const Navbar = () => {
                 </Link>
               </div>
             </li>
+
             <li>
               <Link to="/about">
                 <div
@@ -77,6 +78,7 @@ const Navbar = () => {
                 {about && (<div className="hover_text">about</div>)}
               </Link>
             </li>
+
             <li>
               <Link to="/projects">
                 <div
@@ -90,15 +92,15 @@ const Navbar = () => {
             </li>
 
             <li>
-                  <div
-                    className="icon_style text-pink-500 pad"
-                    onMouseEnter = {() => setContact(true)}
-                    onMouseLeave = {() => setContact(false)}
-                    onClick={toggleContact}
-                    >
-                      <WiMeteor />
-                  </div>
-                  {contact && (<div className="hover_text">contact</div>)}
+              <div
+                className="icon_style text-pink-500 pad"
+                onMouseEnter = {() => setContact(true)}
+                onMouseLeave = {() => setContact(false)}
+                onClick={toggleContact}
+              >
+                <WiMeteor />
+              </div>
+              {contact && (<div className="hover_text">contact</div>)}
             </li>
           </ul>
 
