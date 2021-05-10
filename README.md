@@ -20,6 +20,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 - [ ] Experiment with color scheme; add some interest
 
 ###### Navbar
+- [ ] In some views, the top nav doesn't span width. Correct this.
 - [ ] Make the bg not black
 - [ ] Icons too far apart
 - [ ] Icons should not jump when hovered
@@ -36,3 +37,5 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 
 ###### About/bio
 - [ ] Update info, add image
+- [ ] Add headline
+- [ ] Add resume
