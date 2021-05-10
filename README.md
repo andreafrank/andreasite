@@ -13,6 +13,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 - [ ] Refactor Tailwind elements. Currently too repetitive.
 - [ ] Custom 404 page
 - [ ] Take care of routing (ie, if you land on /about, it gives you a 404)
+- [ ] DRY up areas where repetition is present
 
 ###### Main/home
 - [ ] Add firefly field with Three.JS
