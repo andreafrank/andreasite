@@ -10,6 +10,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 ###### General
 - [ ] Element alignments: for all views, check padding, margins. Some pixels sometimes slightly off.
 - [ ] Check responsive display on very large screens
+- [ ] Refactor Tailwind elements. Currently too repetitive.
 
 ###### Main/home
 - [ ] Add firefly field with Three.JS
@@ -25,6 +26,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 
 ###### Projects
 - [ ] Display differently on smaller screens
+- [ ] Split into programming and UX sections more clearly.
 
 ###### Contact
 - [ ] Contact page info - integrate into navbar with tabs; refine interaction

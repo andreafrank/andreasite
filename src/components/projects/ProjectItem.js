@@ -6,10 +6,6 @@ import Bus from './project_files/Bus';
 import Community from './project_files/Community';
 import Personal from './project_files/Personal';
 import Instapost from './project_files/Instapost';
-import './ProjectItem.css';
-
-// TODO: Refactor. This is too repetitive. Split into programming and UX sections more clearly.
-// responsive small screen
 
 const ProjectItem = () => {
   return (

@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import Technologies from './Technologies';
 import './Home.css';
 
-// TODO: Delay css isn't working
-
 const technologyList = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'Figma'];
 
 const Home = ({ characters, name }) => {
