@@ -9,7 +9,7 @@ import Instapost from './project_files/Instapost';
 
 const ProjectItem = () => {
   return (
-    <div className="flex flex-col-3" >
+    <div className="lg:flex lg:flex-col-3" >
       <BrowserRouter>
         <nav>
           <ul>

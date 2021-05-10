@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bus = () => {
   return (
-    <div className="secondary-font p-8 lg:w-3/4 w-full lg:pr-3 " style={{ color: 'white' }}>
+    <div className="secondary-font p-8 lg:w-2/3 w-full lg:pr-3 " style={{ color: 'white' }}>
       <h1 className="font-bold text-xl"> UX Case Study: Bus Tracker</h1>
       <div>Make this story short:{' '}
       <a

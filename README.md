@@ -28,6 +28,7 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 ###### Projects
 - [ ] Display differently on smaller screens
 - [ ] Split into programming and UX sections more clearly.
+- [ ] Image minimum sizes
 
 ###### Contact
 - [ ] Contact page info - integrate into navbar with tabs; refine interaction
