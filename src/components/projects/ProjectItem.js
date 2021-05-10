@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React, { useState } from 'react';
-=======
 import React, { useState, useEffect } from 'react';
->>>>>>> 0778e060cfc7965bd7179d62a5386dc9bafda97b
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import NasaImage from './project_files/NasaImage';
 import Weather from './project_files/Weather';
@@ -13,8 +9,6 @@ import Instapost from './project_files/Instapost';
 
 const ProjectItem = () => {
 
-<<<<<<< HEAD
-=======
   const getWidth = () => {
     const { innerWidth: width } = window;
     return {
@@ -39,14 +33,13 @@ const ProjectItem = () => {
 
   const { width } = useWindowDimensions();
 
->>>>>>> 0778e060cfc7965bd7179d62a5386dc9bafda97b
   return (
     <div className="lg:flex lg:flex-col-3" >
       <BrowserRouter>
         <nav>
           <ul>
 
-            <li className="container my-4 px-8">
+          <li className="container my-4 px-8">
               <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
                 <Link to="/weather">
                   <div className="text-white 2xl font-bold mb-2">
@@ -57,61 +50,6 @@ const ProjectItem = () => {
                   </div>
                 </Link>
               </div>
-<<<<<<< HEAD
-              <Weather />
-            </li>
-
-            <li className="container my-4 px-8">
-              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
-                <Link to="/personal">
-                  <div className="text-white 2xl font-bold mb-2">
-                    Personal
-                  </div>
-                  <div className="text-gray-800 leading-relaxed text-pink-100">
-                    More about this website you're viewing. Meta!
-                  </div>
-                </Link>
-              </div>
-            </li>
-
-            <li className="container my-4 px-8">
-              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
-                <Link to="/nasa">
-                  <div className="text-white 2xl font-bold mb-2">
-                    Nasa Image Search
-                  </div>
-                  <div className="text-gray-800 leading-relaxed text-pink-100">
-                    Spooky space pictures
-                  </div>
-                </Link>
-              </div>
-            </li>
-
-            <li className="container my-4 px-8">
-              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
-                <Link to="/instapost">
-                  <div className="text-white 2xl font-bold mb-2">
-                    Instapost
-                  </div>
-                  <div className="text-gray-800 leading-relaxed text-pink-100">
-                    Rails, React, PostGres
-                  </div>
-                </Link>
-              </div>
-            </li>
-
-            <li className="container my-4 px-8">
-              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
-                <Link to="/bus">
-                  <div className="text-white 2xl font-bold mb-2">
-                    UX Case Study: Bus Tracker
-                  </div>
-                  <div className="text-gray-800 leading-relaxed text-pink-100">
-                    Because waiting for the bus in the cold is terrible
-                  </div>
-                </Link>
-              </div>
-=======
               { (width < 1024) &&
                   <Route path="/weather">
                     <Weather />
@@ -189,19 +127,18 @@ const ProjectItem = () => {
                       <Bus />
                     </Route>
                 }
->>>>>>> 0778e060cfc7965bd7179d62a5386dc9bafda97b
             </li>
 
             <li className="container my-4 px-8">
-              <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
-                <Link to="/community">
-                  <div className="text-white 2xl font-bold mb-2">
-                    UX Case Study: CommUNITY
-                  </div>
-                  <div className="text-gray-800 leading-relaxed text-pink-100">
-                    Mutual-aid focused help in times of natural disaster
-                  </div>
-                </Link>
+                <div className="bg-pink-600 hover:bg-pink-400 rounded-xl p-6">
+                  <Link to="/community">
+                    <div className="text-white 2xl font-bold mb-2">
+                      UX Case Study: CommUNITY
+                    </div>
+                    <div className="text-gray-800 leading-relaxed text-pink-100">
+                      Mutual-aid focused help in times of natural disaster
+                    </div>
+                  </Link>
               </div>
               { (width < 1024) &&
                   <Route path="/community">
