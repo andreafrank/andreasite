@@ -11,6 +11,8 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 - [ ] Element alignments: for all views, check padding, margins. Some pixels sometimes slightly off.
 - [ ] Check responsive display on very large screens
 - [ ] Refactor Tailwind elements. Currently too repetitive.
+- [ ] Custom 404 page
+- [ ] Take care of routing (ie, if you land on /about, it gives you a 404)
 
 ###### Main/home
 - [ ] Add firefly field with Three.JS
@@ -40,3 +42,4 @@ Used ReactJS, vanillaJS, TailwindCSS and custom CSS.
 - [ ] Update info, add image
 - [ ] Add headline
 - [ ] Add resume
+- [ ] Reading / study list

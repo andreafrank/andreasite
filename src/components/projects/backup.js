@@ -36,6 +36,7 @@ const ProjectItem = () => {
   return (
     <div className="lg:flex lg:flex-col-3" >
       <BrowserRouter>
+      <Switch>
         <nav>
           <ul>
 
@@ -68,11 +69,6 @@ const ProjectItem = () => {
                 </div>
               </Link>
             </div>
-            { (width < 1024) &&
-                <Route path="/personal">
-                  <Personal />
-                </Route>
-            }
           </li>
 
             <li className="container my-4 px-8">
@@ -86,11 +82,6 @@ const ProjectItem = () => {
                     </div>
                   </Link>
                 </div>
-                { (width < 1024) &&
-                    <Route path="/nasa">
-                      <NasaImage />
-                    </Route>
-                }
             </li>
 
             <li className="container my-4 px-8">
@@ -104,11 +95,6 @@ const ProjectItem = () => {
                     </div>
                   </Link>
                 </div>
-                { (width < 1024) &&
-                    <Route path="/instapost">
-                      <Instapost />
-                    </Route>
-                }
             </li>
 
             <li className="container my-4 px-8">
@@ -122,11 +108,6 @@ const ProjectItem = () => {
                     </div>
                   </Link>
                 </div>
-                { (width < 1024) &&
-                    <Route path="/bus">
-                      <Bus />
-                    </Route>
-                }
             </li>
 
             <li className="container my-4 px-8">
@@ -140,19 +121,13 @@ const ProjectItem = () => {
                     </div>
                   </Link>
               </div>
-              { (width < 1024) &&
-                  <Route path="/community">
-                    <Community />
-                  </Route>
-              }
             </li>
 
           </ul>
         </nav>
 
-        { (width >= 1024) &&
-        <Switch>
-          <Route path="/nasa">
+        {(width < 1024) &&
+          <div><Route path="/nasa">
             <NasaImage />
           </Route>
           <Route path="/weather">
@@ -169,10 +144,10 @@ const ProjectItem = () => {
           </Route>
           <Route path="/bus">
             <Bus />
-          </Route>
-        </Switch>}
-      </BrowserRouter>
+          </Route></div>}
 
+        </Switch>
+      </BrowserRouter>
     </div>
   )
 }
