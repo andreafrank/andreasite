@@ -14,7 +14,7 @@ const About = () => {
       Though I recently completed an MPS in UX Design from Maryland Institute College of Art, my interest and intention lie in front-end development. I use what I've learned in UX to inform my process, and if you need a developer who can easily interface with your design team, look no further.
       <br />
       <br />
-      I'm values-driven, and care deeply about racial and gender equity, data privacy, and sustainability. Outside of development, I like to sew and pattern draft, garden, cook, and I'm really looking forward to traveling again.
+      I'm values-driven, and care deeply about racial and gender equity, data privacy, and sustainability. Outside of development, I like acid techno, sewing and pattern drafting, gardening, cooking, and I'm really looking forward to traveling again.
     </div>
   )
 }
