@@ -8,13 +8,16 @@ const About = () => {
       I'm a creative developer and who recently transitioned into tech.
       I currently work as an Implementation Developer at NationBuilder. I’m looking forward to refining my skills
       and deepening my understanding of what makes successful, aesthetic, and meaningful products and experiences.
-      I’m consistent, engaged, and naturally curious. In my free time, I'm currently following the algorithms section in<a
+      I’m consistent, engaged, and naturally curious. In my free time, I'm currently following the algorithms section in
+      <div className="text-pink-500 hover:text-pink-300 hover:text-pink-300">
+        <a
           href="https://teachyourselfcs.com/"
           target="_blank"
           rel="noreferrer"
         >
             Teach Yourself CS
         </a>,
+      </div>
       learning ReactJS more deeply, and just beginning to get my feet wet with ThreeJS and Unity.
       <br />
       <br />
