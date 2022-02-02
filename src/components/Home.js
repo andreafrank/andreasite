@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Technologies from './Technologies';
 import './Home.css';
 
-const technologyList = ['ReactJS', 'Javascript', 'Ruby', 'Rails', 'ThreeJS/react-three-fiber', 'Figma'];
+const technologyList = ['Ruby', 'Rails', 'PostgresQL', 'ReactJS'];
 
 const Home = ({ characters, name }) => {
   const charTimerRef = useRef(null);
